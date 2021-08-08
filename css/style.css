@@ -1,0 +1,47 @@
+html, body{
+    margin: 0;
+}
+
+.news{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1140px;
+    
+    
+}
+
+.news .news-menu{
+    width: 300px;
+    padding: 15px 0 15px;
+    border: 1px solid rgba(0,0,0,0.1);
+    text-align: center;
+  
+}
+
+.news img{
+    vertical-align: middle;
+    
+}
+
+.news .news-menu:hover{
+    background-color:red;
+    
+}
+
+@media (min-width:540px) and (max-width:720px){
+    .news{
+        width: 720px;
+    }
+    
+}
+
+
+@media (min-width:320px) and (max-width:539px){
+
+.news{
+    width: 100%;
+}
+.news .news-menu{
+    width: 100%;
+}
+}
