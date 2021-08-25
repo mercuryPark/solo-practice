@@ -1,0 +1,114 @@
+Css 기본값
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+img {
+    vertical-align: middle;
+}
+
+button{
+    border: none;
+}
+
+input, textarea{
+    outline: none;
+}
+.header-flex-between{
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-flex-start{
+    display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.header-flex-end{
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.header-flex-center{
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+#wrap-main{
+
+}
+#wrap-main #voice-fising-nav{
+    min-width: 1200px;
+    width: 100%;
+    height: 90px;
+    border-bottom: 1px solid #eee;
+    padding-left: 50px;
+   
+}
+#wrap-main #voice-fising-nav .header-logo{
+    margin-right: 20px;
+}
+
+#wrap-main #voice-fising-nav .header-logo h2{
+    font-size: 27px;
+    color: #222;
+    
+}
+#wrap-main #voice-fising-nav .header-nav{
+    
+}
+#wrap-main #voice-fising-nav .header-nav ul{
+    
+}
+#wrap-main #voice-fising-nav .header-nav ul li{
+    padding: 0 10px;
+}
+#wrap-main #voice-fising-nav .header-nav li a{
+    color: #222222;
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
